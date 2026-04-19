@@ -9,7 +9,7 @@ Usage:
   python3 fundamentals.py                     → menu
   python3 fundamentals.py TICKER              → single ticker fundamentals
   python3 fundamentals.py TICKER1 TICKER2 ... → batch
-  python3 fundamentals.py watchlist           → reads waypoint-capital/watchlist.md
+  python3 fundamentals.py watchlist           → reads blue-hill-capital/watchlist.md
   python3 fundamentals.py log [N]             → last N log entries
   python3 fundamentals.py --check TICKER FIELD VALUE → verify cited fundamental
 
@@ -45,7 +45,7 @@ What do you want to pull?
      .fundamentals --check NVDA pe 50    (is PE within 5% of live?)
 
 3. 👀 Pull the watchlist
-     .fundamentals watchlist             (reads waypoint-capital/watchlist.md)
+     .fundamentals watchlist             (reads blue-hill-capital/watchlist.md)
 
 4. 📜 Show recent pulls
      .fundamentals log [N]               (last N from fundamentals-log.jsonl)
@@ -274,8 +274,8 @@ def check_fundamental(ticker, field, cited_value):
 
 
 def read_watchlist():
-    """Read tickers from waypoint-capital/watchlist.md."""
-    watchlist_path = Path.home() / "Desktop/CLAUDE CODE/waypoint-capital/watchlist.md"
+    """Read tickers from blue-hill-capital/watchlist.md."""
+    watchlist_path = Path.home() / "Desktop/CLAUDE CODE/blue-hill-capital/watchlist.md"
     if not watchlist_path.exists():
         return None, f"No watchlist at {watchlist_path}"
     tickers = []

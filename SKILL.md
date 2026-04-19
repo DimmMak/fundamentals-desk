@@ -3,7 +3,7 @@ name: fundamentals-desk
 version: 0.1.0
 role: Equity Analyst — Fundamentals
 description: >
-  Live fundamental-data single source of truth for Waypoint Capital. Parallels
+  Live fundamental-data single source of truth for Blue Hill Capital. Parallels
   price-desk but for valuation / earnings / cashflow / margins / balance sheet /
   returns / analyst targets / dividend data. Wraps yfinance. Prevents the
   stale-web-data bug that would otherwise contaminate every rumble's fundamental
@@ -16,7 +16,7 @@ description: >
 
 # Fundamentals Desk — The Equity Analyst
 
-The **Equity Analyst** for Waypoint Capital. Pulls every fundamental metric a rumble might cite: valuation, earnings, cashflow, margins, balance sheet, returns, analyst targets, dividends, share data.
+The **Equity Analyst** for Blue Hill Capital. Pulls every fundamental metric a rumble might cite: valuation, earnings, cashflow, margins, balance sheet, returns, analyst targets, dividends, share data.
 
 **Single job:** provide live, timestamped, sourced fundamentals. Kill the stale-web-data bug for numbers just like price-desk killed it for prices.
 
@@ -66,7 +66,7 @@ Returns:
 
 ### `.fundamentals watchlist`
 
-Reads `waypoint-capital/watchlist.md`, pulls full fundamentals for every ticker. Useful for a weekend deep-dive.
+Reads `blue-hill-capital/watchlist.md`, pulls full fundamentals for every ticker. Useful for a weekend deep-dive.
 
 ### `.fundamentals log [N]`
 

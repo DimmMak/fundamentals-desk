@@ -1,6 +1,6 @@
 # 📐 Fundamentals Desk
 
-> Equity Analyst — Fundamentals for Waypoint Capital.
+> Equity Analyst — Fundamentals for Blue Hill Capital.
 > Live fundamentals via yfinance. Kills stale-web-data for numbers.
 
 ---
@@ -29,7 +29,7 @@ Requires `python3` + `yfinance` (auto-installed if missing).
 .fundamentals              → menu
 .fundamentals NVDA         → full fundamental snapshot
 .fundamentals NVDA AMD MU  → batch
-.fundamentals watchlist    → pulls everything in waypoint-capital/watchlist.md
+.fundamentals watchlist    → pulls everything in blue-hill-capital/watchlist.md
 .fundamentals log [N]      → last N log entries
 .fundamentals --check TICKER FIELD VALUE → verify cited value
 ```
@@ -61,6 +61,6 @@ Requires `python3` + `yfinance` (auto-installed if missing).
 ❌ Historical point-in-time (current only)
 ```
 
-For Waypoint's watchlist (mostly large-cap tech + semis), data quality is excellent.
+For Blue Hill's watchlist (mostly large-cap tech + semis), data quality is excellent.
 
 🃏⚔️
