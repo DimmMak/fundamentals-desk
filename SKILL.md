@@ -24,6 +24,16 @@ capabilities:
     - "write outside own data folder"
     - "modify other skills' data"
     - "cite stale web data"
+unix_contract:
+  data_format: "jsonl"
+  schema_version: "0.1.0"
+  stdin_support: false
+  stdout_format: "json"
+  composable_with:
+    - "price-desk"
+    - "technicals-desk"
+    - "royal-rumble"
+    - "tier"
 ---
 
 <!-- CHANGELOG pointer: see CHANGELOG.md. -->
