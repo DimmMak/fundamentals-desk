@@ -1,7 +1,7 @@
 ---
 name: fundamentals-desk
 domain: fund
-version: 0.1.0
+version: 0.2.0
 role: Equity Analyst — Fundamentals
 description: >
   Live fundamental-data single source of truth for Blue Hill Capital. Parallels
