@@ -11,6 +11,19 @@ description: >
   claims. Single rule: no committee analysis cites a fundamental number without
   a fundamentals-desk pull.
   Commands: .fundamentals | .fundamentals TICKER | .fundamentals watchlist | .fundamentals --check TICKER FIELD VALUE | .fundamentals log
+  NOT for: live prices (use price-desk).
+  NOT for: technical indicators (use technicals-desk).
+  NOT for: investment committee analysis (use .rumble).
+capabilities:
+  reads:
+    - "yfinance API (network)"
+  writes:
+    - "fundamentals-desk/data/fundamentals-log.jsonl"
+  calls: []
+  cannot:
+    - "write outside own data folder"
+    - "modify other skills' data"
+    - "cite stale web data"
 ---
 
 <!-- CHANGELOG pointer: see CHANGELOG.md. -->
