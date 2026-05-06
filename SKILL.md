@@ -1,8 +1,9 @@
 ---
-name: fundamentals-desk
+name: equity-analyst
+aliases: [fundamentals-desk, fundamentals]
 domain: fund
-version: 0.2.0
-role: Equity Analyst — Fundamentals
+version: 0.3.0
+role: Equity Analyst (Bottom-Up Fundamental Research)
 description: >
   Live fundamental-data single source of truth for Blue Hill Capital. Parallels
   price-desk but for valuation / earnings / cashflow / margins / balance sheet /
